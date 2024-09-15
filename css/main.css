@@ -1,0 +1,422 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos del body */
+
+.container-fluid{
+    background-color: beige;  
+    
+}
+
+/* estilos de header */
+
+header{
+    background-color: #F8D30D;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+header nav ul li{ 
+    text-decoration: none;  
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+
+/* estilos de los menus */
+
+header nav ul li a{
+    text-decoration: none;
+    color: black; 
+    font-size: 105% ;
+    
+    
+}
+
+header a .logo{
+    height: 100px; 
+    width: 100px;
+}
+
+.tomatito:hover{
+    background-color: orangered;
+}
+
+
+
+
+
+/* estilos del main */
+
+main{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* estilos del main para el index */
+.tituloIndex{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    
+}
+
+.textoIndex{
+    text-align: left;
+    margin-left: 3%;
+    padding: 3%;
+}
+
+
+
+main p{
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+   
+}
+
+.textoMainIndex{
+    display: inline-block;
+    
+}
+
+
+
+/* estilos cartel "Horarios de atencion */
+
+main table{
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+/* pagina pastillas de frenos */
+
+
+.tituloPastillas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 15%;
+    font-weight:bold;
+    font-weight: bolder;
+}
+
+
+.videoYouTube iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     
+}
+
+.parrafoPastillasUno{
+    text-align: left;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+.parrafoPastillas{
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+.imagenesPastillasParrafo{
+    display: grid ;
+    justify-content: center;
+      
+}
+
+
+
+
+/* pagina herramientas */
+
+.tituloHerramientas{
+    color: rgb(22, 21, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.videoHerramientas{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex; 
+}
+
+.parrafoHerramientas{
+    display: grid;
+    color: teal;
+    
+ }
+
+main div.imagenesHerramientasUno{
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+}
+
+.imagenesHerramientassUno, .imagenesHerramientassDos, .imagenesHerramientassTres{
+    margin-bottom: 5%;
+}
+
+.imagenesHerramientasDos div{
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+
+
+
+  
+/* estilos para el main de suspensio y.. */
+
+.tituloPrincipalSuspension{
+    font-weight:bold;
+    padding-top: 5%;
+}
+
+.tituloSecundarioSuspension{
+    padding-top: 10%;
+    font-style: italic;
+}
+
+.parrafoSuspension{
+    margin-left: 0%;
+     margin-right: 0%;
+     padding-top: 3%;
+     text-align: right;
+}
+
+.parrafoSuspensionUno{
+    margin-left: 0%;
+    padding-top: 3%;
+    text-align: left;
+
+}
+
+/* estilos para el link del mapa en contactos */
+
+.mapa{
+    
+    text-align: center;
+    margin: 10%;
+    display: flex;
+}
+
+
+
+/* estilos para planilla de contacto */
+
+form{
+    display: inline ;
+    background-color:#F8D30D;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form fieldset legend{
+   background-color: black;
+   color: whitesmoke;
+}
+
+/* logo Whatsapp flotante */
+
+.itemWhatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 50px; 
+    width: 70px;
+} 
+
+
+/* estilos footer */
+
+footer{
+    background-color:#F8D30D ;
+    text-align: center;
+    color: black;
+    
+   
+}
+
+footer div h2{
+    margin: 5px;
+}
+
+footer p{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.itemRedesSociales{
+    display: inline-flex;
+    margin: 10px;
+    
+}
+
+/* estilos desktop */
+
+@media screen and (min-width:1024px){
+
+    header{
+        background-color: rgb(12, 11, 11);
+    }
+
+    header .container-fluid{
+        background-color: gray;
+    }
+   
+    /* estilos index */
+
+    main .tituloIndex{  
+        font-weight: bolder;
+        color: rebeccapurple;
+        
+    }
+
+    main .videoYouTube{
+        height: 300px;
+    }
+    
+    main .videoYouTube iframe{
+        width: 50%;
+        height: 100%;
+    }
+
+    main .textoIndex{
+        justify-content: left;
+        padding-right: 5%;
+    }
+
+    /* estilos contacto */
+
+    main .horarios{
+        font-size: larger;
+        height: 20px;
+        padding-bottom: 5%;
+    }
+
+    .mapa{
+        justify-content: center;   
+    }
+
+    /* estilos herramientas */
+
+    main .videoHerramientas{
+        justify-content: center;
+        padding: 10px;
+    }
+
+    main .parrafoHerramientas{
+        display: inline-block;
+        background-color: #F8D30D;
+        color: blue;
+        font-size: large;
+    }
+
+  
+
+    main div .imgUnoHerramientas{
+    width: 100%;
+    height: 50%;
+    }
+
+
+   main div .imagenesHerramientasUno{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    justify-content: center;
+   }
+
+
+    main div .imagenesHerramientasDos{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);      
+        column-gap: 1.5rem;
+        
+    }
+
+    main .imgCuatroHerramientas{
+        display: none;
+    }
+
+    main .imgSeisHerramientas{
+        display: none;
+    }
+    /* estilos pastillas de frenos */
+
+    header{
+        background-color: black;
+    }
+
+    main .tituloPastillas{
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        font-weight: bold;
+    }
+
+    main .parrafoPastillasUno{
+        font-size: large ;
+    }
+
+    main .imagenesPastillasParrafo{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,30%);
+        column-gap: 1.5rem;
+    }
+
+    main .imgTresPastillas{
+        grid-row: span 3;
+        height: 28rem;
+        width: 30rem;
+    }
+
+    main .imgSeisPastillas{
+        display: none;    
+    }
+
+    main .txtPastillas{
+        padding-top: 0%;
+        padding-bottom: 10%;
+        color: tomato;
+    }
+
+    footer{
+        background-color: black;
+    }
+
+    footer p{
+        background-color: rgb(29, 24, 18);
+    }
+
+    /* estilos suspension y direccion */
+
+    main .tituloSecundarioSuspension{
+        padding-bottom: 15px;
+        padding-top: 2%; 
+    }
+
+    main .parrafoSuspension{
+        text-align: center
+    }
+
+}

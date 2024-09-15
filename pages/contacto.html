@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/main.css">
+     <!-- link bt -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Grupo Tufaro</title>
+</head>
+<body>
+   <div class="container-fluid">
+        <header class="row">
+            <a href="../index.html" class="logo">
+                <img class="logo" src="../img/logo.webp" alt="logo de la compañia" >
+            </a>
+            <!-- Menus de interaccion (bt) -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                <a class="navbar-brand tomatito" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active tomatito" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tomatito" href="../pages/herramientas.html">Herramientas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tomatito" href="../pages/pastillasdefrenos.html">Pastillas de frenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tomatito" href="../pages/suspensionydireccion.html">Suspension y direccion</a>
+                    </li>
+                        
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+
+        <div>
+            <a href="https://web.whatsapp.com/">
+                <img class="itemWhatsapp" src="../img/whatsApplogo.png">
+            </a>
+        </div>
+
+            <main class="row">
+                <div class="horarios">
+                <table border="6" align="center">
+                    <th>Horarios de atencion</th>
+
+                    <tr>
+                        <td>
+                            Lunes a Viernes
+                        </td>
+                        <td>
+                            Sabados
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            8:30 a 12:30 / 14:30 a 18:00
+                        </td>
+                        <td>
+                            9:00 a 13:00
+                        </td>
+                    </tr>
+                </table>
+            </div>
+           </main>
+
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13144.771906032067!2d-58.55980240180664!3d-34.54866905680697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba03d5cb6b2f%3A0x1691556d398991f5!2sGrupo%20Tufaro!5e0!3m2!1ses!2sar!4v1724197987569!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+    <section>
+        <form>
+
+            <fieldset>
+                <legend>Completa con tus datos y consulta para contactarte</legend>
+
+                <!-- campo para completar con el nombre -->
+                <div class="tablaDeDatos">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+
+                <!-- campo correo electronico -->
+                <div>
+                    <label for="correo">Correo electronico</label>
+                    <input type="email" name="correo" id="correo">
+                </div>
+
+                <!-- campo numero de celular -->
+                <div>
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" name="celular">
+                </div>
+
+                <!-- campo para mensaje -->
+                 <div>
+                    <label for="mensaje"></label>
+                    <textarea name="text" id="mensaje" rows="6" cols="40" placeholder="mensaje"></textarea>
+                 </div>
+
+                 <!-- botones de enviar y borrar -->
+                  <div>
+                    <input type="submit" value="Enviar consulta">
+                    <input type="reset" value="Borrar todo">
+                  </div>
+            </fieldset>
+
+        </form>
+    </section>
+
+    <footer class="row">
+        <div class="redesSociales">
+            <h2>Redes sociales</h2>
+        </div>
+        <p>Todos los derechos reservados</p>
+    
+            <div class="itemRedesSociales">
+                <div>
+                    <a href="https://www.instagram.com/grupo_tufaro/">
+                        <img src="../img/instagram.png" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=rK4mcj09bdA">
+                        <img src="../img/youtube.png" alt="">
+                    </a>
+                </div>
+               
+                
+            </div>
+    
+    
+    </footer>
+
+</div>
+
+
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
