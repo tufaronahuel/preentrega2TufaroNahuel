@@ -502,22 +502,37 @@ footer p{
 
    
     .tituloPastillas{
-        padding-top: 10px;
         padding-bottom: 2.5%;
         font-weight: bold;
     }
 
-    .parrafoPastillas, .parrafoPastillasUno{
+    .videoYouTube{
+        justify-content: center;
+    }
+
+    .parrafoPastillas{
         font-size: large ;
+        justify-content: center;
+        margin-left: 5%;
+        
+    }
+
+    .parrafoPastillasUno{
         justify-content: left;
-        margin-left: 10%;
     }
 
     main .imagenesPastillasParrafo{
         grid-template-columns: repeat(3,0.5fr);
-        grid-template-rows: repeat(2,0.5fr);
+        grid-template-rows: repeat(2,0.2fr);
         column-gap: 10px;
         margin-top: 10%;
+        width: 90%;
+        height: 70%;
+        padding-left: 10%;
+        
+    }
+
+    .imgCuatroPastillas{
         
     }
 
